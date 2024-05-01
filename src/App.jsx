@@ -14,10 +14,12 @@ function App() {
 
   return (
     <div className='count'>
+      <div>
       <h1 className='count-text'>Count:{count}</h1>
       <div className='count-button'>
       <button className='button' onClick={increment}>increase</button>
       <button className='button' onClick={decrement}>Decrease</button>
+      </div>
       </div>
     </div>
   )
